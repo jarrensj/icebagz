@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import IceBagzClick from '@/components/IceBagzClick'
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
       <h1 className="text-3xl font-bold mb-4 text-center mt-8">
         icebagz
       </h1>
+      <IceBagzClick />
     </div>
   )
 }
